@@ -1,3 +1,5 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Description](README.md)
+* [Mapper and Reducer for HDFS](mapper-and-reducer-for-hdfs.md)
+* [Hadoop Script](hadoop-script.md)
