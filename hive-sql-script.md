@@ -28,4 +28,30 @@ ORDER BY Table1.AirlineOrigin;
 
 {% file src=".gitbook/assets/TaxiHiveResults.csv" %}
 
-The above Hive script yields the same results as the Hadoop MapReduce. Major difference between Hadoop and Hive approach is that Hive was designed such that those with low programming experience could still leverage a distributed file system using SQL queries.
+The above Hive script yields the same results as the Hadoop MapReduce.
+
+
+
+| airlineorigin | min | max | average  |
+| ------------- | --- | --- | -------- |
+| 9E-ABE        | 0   | 220 | 28.01667 |
+| 9E-ALB        | 0   | 101 | 26.54437 |
+| 9E-ALO        | 0   | 83  | 24.94542 |
+| 9E-ATL        | 9   | 300 | 29.65468 |
+| 9E-ATW        | 0   | 191 | 27.14186 |
+| 9E-AUS        | 0   | 104 | 24.8308  |
+| 9E-AVL        | 0   | 168 | 26.95926 |
+| 9E-AVP        | 0   | 107 | 28.39558 |
+| 9E-AZO        | 0   | 152 | 26.15218 |
+| 9E-BDL        | 0   | 132 | 27.66311 |
+| 9E-BGM        | 0   | 157 | 25.59056 |
+| 9E-BGR        | 0   | 209 | 29.32854 |
+| 9E-BHM        | 0   | 161 | 26.61771 |
+| 9E-BIL        | 12  | 101 | 27.975   |
+| 9E-BIS        | 0   | 93  | 21.57887 |
+| 9E-BJI        | 0   | 99  | 20.0796  |
+| 9E-BNA        | 0   | 158 | 27.59889 |
+| 9E-BOS        | 0   | 187 | 31.72752 |
+| 9E-BTR        | 0   | 62  | 18.91587 |
+
+Major difference between Hadoop and Hive approach is that Hive was designed such that those with low programming experience could still leverage a distributed file system using SQL queries.
